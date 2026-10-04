@@ -1,0 +1,14 @@
+# Pinned against Python 3.13.1 (verified locally 2026-10-03)
+pandas==2.3.3
+numpy==2.4.1
+matplotlib==3.10.7
+seaborn==0.13.2
+networkx==3.5
+streamlit==1.52.2
+
+# Testing
+pytest==9.0.3
+
+# Mining engine dependency (C2 owns). NOT YET INSTALLED locally --
+# confirm a Python 3.13-compatible release before pinning a version.
+# mlxtend==0.23.4

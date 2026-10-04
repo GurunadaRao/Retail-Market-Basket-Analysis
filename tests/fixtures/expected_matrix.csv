@@ -1,0 +1,4 @@
+TransactionID,Bread,Coffee,Eggs,Milk
+1001,1,0,1,1
+1002,1,0,0,1
+1003,0,1,1,0

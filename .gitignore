@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated artefacts (see CP-6 and decision D-2).
+# Contents are never committed; .gitkeep keeps the folders alive on clone.
+outputs/*
+!outputs/.gitkeep
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
